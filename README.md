@@ -17,7 +17,7 @@ The time we greeted you.
 ## Example usage
 
 ```yaml
-uses: lookforward-github/test-js-action@v1.1
+uses: lookforward-github/test-js-action@v1.2
 with:
   who-to-greet: 'LookForward'
 ```

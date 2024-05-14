@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: lookforward-github/test-js-action@v1.1
+        uses: lookforward-github/test-js-action@v1.2
         with:
-          who-to-greet: 'Vladislav Teterins'
+          who-to-greet: 'Vladislav Teterin'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
