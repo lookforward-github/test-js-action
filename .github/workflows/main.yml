@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: lookforward-github/test-js-action@v.1.0
+        uses: lookforward-github/test-js-action@v1.1
         with:
           who-to-greet: 'Vladislav Teterin'
       # Use the output from the `hello` step
